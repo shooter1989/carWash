@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <div class="containerForm">
+        <h1 class="formHead">Мийка автомобілів онлайн</h1>
+        <div class="menuForm">
+            <form action="" name="registration">
+                <label for="log"><b>Логін:</b></label>
+                <input id="log" type="email" required placeholder="email">
+                <label for="pass"><b>Пароль:</b></label>
+                <input id="pass" type="password" required placeholder="password" minlength="4" maxlength="10">
+                <label for="tel"><b>Номер Телефону:</b></label>
+                <input id="tel" type="tel" required placeholder="tel" minlength="10" maxlength="12">
+                <br>
+                <br>
+                <h2>Який автомобіль бажаєте помити:?</h2>
+                <ul>
+                    <li class="firstLi">
+                        <label for="mid" onmouseover="changeColor()"><strong>легковий</strong></label>
+                        <input type="radio" name="typeofcar" value="middle" id="mid" > </li>
+                    <li class="secondLi">
+                        <label for="four">позашляховик</label>
+                        <input type="radio" name="typeofcar" value="4x4" id="four"> </li>
+                    <li class="thirdLi">
+                        <label for="hev"><strong>вантажний</strong></label>
+                        <input type="radio" name="typeofcar" value="heavy" id="hev"> </li>
+                    <li class="fourthLi">
+                        <label for="mot">мототранспорт</label>
+                        <input type="radio" name="typeofcar" value="moto" id="mot"> </li>
+                    <li class="fifthLi">
+                        <label for="sml"><strong>малолітражний</strong></label>
+                        <input type="radio" name="typeofcar" value="small" id="sml"> </li>
+                </ul>
+                <br>
+                <div class="bottomForm">
+                    <label for="btn-res"></label>
+                    <input id="btn-res" type="reset" value="reset" class="btn">
+                     <button class="btn btn-success">Зареєструватися</button></div>
+            </form>
+        </div> <a href="index.html" class="menuItem backBtn">На головну</a> </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

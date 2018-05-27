@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 2px;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    margin: 2px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menuItem {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: beige;
+    line-height: 50px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    margin: 10px 5px 0px 5px;
+    transition: 0.8s;
+}
+
+.main {
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    line-height: 45px;
+    margin-bottom: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menuItem:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.containerForm {
+    width: 65%;
+    margin: 60px auto;
+    text-align: center;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: lightcoral;
+}
+
+.form {
+    margin: 30px;
+}
+
+.backBtn {
+    margin-left: 46%;
+    text-decoration: none;
+}
+
+.firstLi {
+    width: 70px;
+    list-style: none;
+    background: url(mid.gif) no-repeat 5px 5px;
+    padding-left: 50px;
+    Смещаем текст вправо
+}
+
+.secondLi {
+    width: 70px;
+    list-style: none;
+    background: url(4_4.gif) no-repeat 5px 5px;
+    padding-left: 50px;
+    Смещаем текст вправо
+}
+
+.thirdLi {
+    width: 70px;
+    list-style: none;
+    background: url(hev.gif) no-repeat 5px 5px;
+    padding-left: 50px;
+    Смещаем текст вправо
+}
+
+.fourthLi {
+    width: 70px;
+    list-style: none;
+    background: url(moto.gif) no-repeat 5px 5px;
+    padding-left: 50px;
+}
+
+.fifthLi {
+    width: 70px;
+    list-style: none;
+    background: url(sml.gif) no-repeat 5px 5px;
+    padding-left: 50px;
+}
+
+.formHead {
+    margin-bottom: 40px;
+    line-height: 80px;
+}
